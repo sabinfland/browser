@@ -1,0 +1,16 @@
+@import '../../stylesheets/base';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: var(--width-separator-thin) solid var(--color-separator);
+    background-color: var(--color-foreground);
+    padding: var(--spacing-extra-small-alt) var(--spacing-medium);
+
+    .title {
+        padding: 0 var(--spacing-small);
+        text-transform: capitalize;
+        font-weight: var(--font-weight-light);
+    }
+}

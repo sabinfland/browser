@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+
+    .navbar {
+        flex-shrink: 0;
+    }
+
+    .add-lead {
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+
+    .settings {
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+
+    .nav-button {
+        font-size: var(--font-size-large);
+    }
+}

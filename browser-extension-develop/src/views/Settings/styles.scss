@@ -1,0 +1,27 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .inputs {
+        flex-grow: 1;
+        padding: var(--spacing-medium-alt) var(--spacing-large);
+
+        .input {
+            margin-bottom: var(--spacing-small);
+        }
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: space-between;
+        padding: var(--spacing-medium-alt) var(--spacing-large);
+
+        .save-status {
+            color: var(--color-success);
+        }
+    }
+}
